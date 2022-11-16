@@ -35,7 +35,6 @@ class App {
   
   async _renderTracks(opt) {
 
-    json;
     const albumContainer = document.querySelector('#album-container');
     const cover = document.querySelector('#cover');
     albumContainer.innerHTML = '';
