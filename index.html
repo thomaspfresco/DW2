@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset="utf-8">
+    <title>DW2</title>
+
+    <style>
+      body {
+         background-color: rgb(36,36, 35);
+      }
+   </style>
+
+  </head>
+  <body>
+        <h1 style="color:beige; margin-left: 15px;" id="mainTitle"></h1>
+        <h3 style="color:beige; margin-left: 15px;" id="subTitle"></h3>
+        <div style="display: inline-block;" id="cover"></div>
+        <button class="botao" id="rank" style="top: 115px">Ranking</button>
+        <button class="botao" id="rankInv" style="top: 175px">Ranking Inverted</button>
+    <button class="botao" id="alfa" style="top: 235px">Alphabetical</button>
+    <button class="botao" id="alfaInv" style="top: 295px">Alphabetical Inverted</button>
+    
+    <input  type="text" id="search" placeholder="Track/artist">
+    <button class="submitButton" id="searchButton"> Search</button>
+
+      <select id="filter" name="Genre">
+        <!-- <option value="volvo">Volvo</option> -->
+      </select>
+      <button class="submitButton" id="filterButton"> Search</button>
+
+    <hr>
+    <div id="album-container">
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,107 @@
+body {
+    font-family: Helvetica, sans-serif;
+  }
+  
+  .botao {
+    font-size: 12pt;
+    margin-left: 15px;
+    height: 45px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: beige;
+    /*background-color: rgb(30,215, 96);*/
+    color: black;
+    cursor: pointer;
+    position: absolute;
+  }
+
+  .submitButton {
+    font-size: 12pt;
+    border-radius: 10px;
+    height: 45px;
+    width: 80px;
+    cursor: pointer;
+    position: absolute;
+  }
+
+  .submitButton:active {
+    background-color: black;
+    color: beige;
+  }
+
+  .botao:active {
+    background-color: black;
+    color: beige;
+  }
+
+  #searchButton {
+    font-size: 12pt;
+    background-color: beige;
+    top: 115px;
+    left: 850px;
+  }
+
+  #filterButton {
+    font-size: 12pt;
+    background-color: beige;
+    top: 175px;
+    left: 850px;
+  }
+
+  #search {
+    font-size: 12pt;
+    background-color: beige;
+    position: absolute;
+    border-radius: 10px;
+    height: 40px;
+    width: 250px;
+    top: 117px;
+    left: 570px;
+  }
+
+  #filter {
+    font-size: 12pt;
+    background-color: beige;
+    position: absolute;
+    border-radius: 10px;
+    height: 40px;
+    width: 250px;
+    top: 177px;
+    left: 570px;
+  }
+  
+  img {
+    width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+  }
+
+  #cover {
+    padding-bottom: 20px;
+  }
+
+  .track {
+    border-radius: 10px;
+     width: 350px;
+    display:inline-block;
+  }  
+
+  .title {
+    padding-left: 15px;
+    font-weight: bold;
+    font-size: 18pt;
+    color: beige;
+    display: block;
+
+  }
+
+  .artist {
+    padding-left: 15px;
+    color: beige;
+    display: block;
+  }
+  
+  #album-container {
+    padding: 20px 0;
+  }
+  
